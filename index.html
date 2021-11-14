@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | 27Online</title>
+    <script type="text/javascript" src="windowResize.js"></script>
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
     <script src="Build/01_1.loader.js"></script>
-    <script type="text/javascript" src="windowResize.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
         dataUrl: "Build/01_1.data",
