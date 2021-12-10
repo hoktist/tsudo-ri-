@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1334 height=750></canvas>
+      <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -27,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/02_2.loader.js";
+      var loaderUrl = buildUrl + "/03.loader.js";
       var config = {
-        dataUrl: buildUrl + "/02_2.data",
-        frameworkUrl: buildUrl + "/02_2.framework.js",
-        codeUrl: buildUrl + "/02_2.wasm",
+        dataUrl: buildUrl + "/03.data",
+        frameworkUrl: buildUrl + "/03.framework.js",
+        codeUrl: buildUrl + "/03.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "tsudori",
         productName: "27Online",
